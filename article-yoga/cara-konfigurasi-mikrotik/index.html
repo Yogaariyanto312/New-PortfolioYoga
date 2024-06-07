@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8387297469582906"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+</style>
+<link rel="stylesheet" href="style.css" />
+<!-- icon -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<!--  -->
+<title>MIKROTIK | :(</title>
+</head>
+
+<body id="home" oncontextmenu="return false" onkeydown="return false;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top " style="background-color: rgb(63, 63, 63)">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.youtube.com/channel/UC3WF4r_KUNnKcrKAp2QLtrQ">Yogaariyanto</a>
+            <button class="navbar-toggler pt" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light" href="/index.html">Back To home</a>
+                </div>
+            </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- materi -->
+    <section id="Bagian-A">
+        <div class="container">
+            <div class="row fw-bold">
+                <div class="col pb-5 text-center">
+                    <h1>ROUTER MIKROTIK RB951</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col pt-3">
+                    <h5>I. TOPOLOGI</h5>
+                    <div class="text-center pt-2 pb-5">
+                        <img src="img-asset/topologi-sederhana.png" class="img-fluid" width="500px" height="300px"></a>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h5>II. ALAT DAN BAHAN</h5>
+                        </div>
+                    </div>
+                    <ol>
+                        <li>Mikrotik RB961</li>
+                        <li>Koneksi internet dari ISP</li>
+                        <li>Kabel UTP (straight untuk konfigurasi lewat PC atau Laptop)</li>
+                        <li>Laptop/PC</li>
+                        <li>Winbox</li>
+                        <li>Client (HP yang bisa menerima sinyal WIFI station B/G atau B/G/N)</li>
+                    </ol>
+                    <div class="row">
+                        <div class="col">
+                            <h5>III. TUJUAN</h5>
+                        </div>
+                    </div>
+                    <ol>
+                        <li>Konfigurasi IP Address</li>
+                        <li>Konfigurasi Gateway</li>
+                        <li>Konfigurasi DNS</li>
+                        <li>Konfigurasi HOTSPOT</li>
+                        <li>Konfigurasi Client static</li>
+                        <li>Konfigurasi Client Dynamic</li>
+                        <li>Konfigurasi Proxy Server</li>
+                        <li>Konfigurasi Manajemen Bandwith</li>
+                        <li>Konfigurasi FTP server</li>
+                        <li>Konfigurasi PPP</li>
+                        <li>Konfigurasi VPN</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cara mengakses mikrotik melalui winbox -->
+
+    <!-- ads -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="aliceblue" fill-opacity="1"
+            d="M0,192L48,208C96,224,192,256,288,234.7C384,213,480,139,576,144C672,149,768,235,864,
+            229.3C960,224,1056,128,1152,117.3C1248,107,1344,181,1392,218.7L1440,256L1440,320L1392,
+            320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,
+            384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+    <!-- akhir ads -->
+    <!-- bagian A -->
+    <section id="Bagian-B">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>A. MENGAKSES ROUTER MIKROTIK MELALUI WINBOX</h5>
+                </div>
+            </div>
+            <p class="pengertianhtml-1">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Adapun langkah-langkah untuk mengakses <span id="italic">router
+                    Mikrotik</span>melalui aplikasi <span id="italic">Winbox</span>adalah
+                sebagai berikut:
+            </p>
+            <ol>
+                <li>Mengunduh aplikasi Winbox dari situs pada alamat <a class="btn btn-link"
+                        href="https://mikrotik.com/download">https://mikrotik.com/download</a>, seperti
+                    terlihat pada gambar berkut:</li>
+            </ol>
+            <div class="text-center pt-2 pb-4">
+                <img src="img-asset/download-mikrotik.jpg" class="img-fluid" width="800px" height="600px"></a>
+            </div>
+            <p class="pengertianhtml-1">Pilih <span id="text-bold">WINBOX > Winbox Version terbaru</span>
+                untuk
+                mengunduh
+                aplikasi tersebut ke
+                komputer yang digunakan,seperti terlihat pada gambar berkut:
+            </p>
+            <div class="text-center pt-2 pb-4">
+                <img src="img-asset/versionmikrotik.jpg" class="img-fluid" width="800px" height="600px"></a>
+            </div>
+            <ol start="2">
+
+                <li>Jalankan aplikasi <span id="text-bold">winbox</span> yang telah di download.</li>
+                <li>Tampil kotak dialog aplikasi <span id="text-bold">winbox</span>, seperti terlihat pada
+                    gambar berikut.</li>
+            </ol>
+            <div class="text-center pt-2 pb-4">
+                <img src="img-asset/dialog-aplikasi-winbox.png" class="img-fluid" width="800px" height="600px"></a>
+            </div>
+        </div>
+            <!--  -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fill-opacity="1"
+                    d="M0,192L48,208C96,224,192,256,288,234.7C384,213,480,139,576,144C672,149,768,235,864,229.3C960,224,1056,128,1152,117.3C1248,107,1344,181,1392,218.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+</section>
+            <!--  -->
+            <section id="Bagian-C">
+            <div class="container">
+            <p class="pengertianhtml-1">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Untuk dapat mengakses Mikrotik, Anda harus melengkapi
+                3 parameter yang terdapat pada kotak dialog login dari aplikasi winbox yaitu:
+            </p>
+            <ol type="A">
+                <li><span id="italic-bold">Connect to</span> (digunakan untuk memasukan alamat IP atau alamat
+                    MAC
+                    dari router Mikrotik yang akan diakses).</li>
+                <li><span id="italic-bold">Login</span> (nama login pengguna yang digunakan untuk mengakses
+                    router Mikrotik), dan</li>
+                <li><span id="italic-bold">Password</span> (sandi login pengguna yang digunakan untuk mengakses
+                    router mikrotik).
+                    Secara default Mikrotik telah membuat satu user untuk tujuan administrasi yaitu dengan nama
+                    login "admin" dengan password kosong (<span id="text-bold">tanpa sandi</span>).</li>
+            </ol>
+            <p class="pengertianhtl-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input <span id="italic-bold">Connect to</span> dapat diisi secara otomatis melalui
+            pemanfaatan <span id="italic"> Mikrotik Neighbor Discovery Protocol</span> (<span id="italic">MNDP</span>) yang dapat mendeteksi router Mikrotik
+            yang terhubung secara langsung dengan komputer yang digunakan yaitu dengan cara memilih tab <span id="textbold">Neighbors</span>
+            di bagian bawah dari <span id="italic">Winbox</span>, seperti terlihat pada gambar berikut:
+            </p>
+            <div class="text-center pt-2 pb-4">
+                <img src="img-asset/TAB-NEIGBORS.png" class="img-fluid" width="800px" height="600px"></a>
+            </div>
+            <p class="pengertianht1-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terdeteksi satu router <span id="textbold">Mikrotik
+            RB951Ui-2HnD</span>. Apabila belum terdeteksi atau terlihat informasi daftar router Mikrotik maka klik tombol 
+            <span id="textbold">Refresh</span>.</p>
+            <p class="pengertianht1-1">
+            Dari daftar router yang ditemukan, pilih isian kolom <span id="italic">MAC Address</span> atau 
+            <span id="italic">IP</span> untuk tekoneksi ke router Mikrotik tersebut, seperti terlihat pada gambar berikut:
+            </p>
+            <div class="text-center pt-2 pb-4">
+                <img src="img-asset/neigbors-ip.png" class="img-fluid" width="800px" height="600px"></a>
+            </div>
+            <p class="pengertianht1-1">karena Mikrotik belum memiliki alamat IP maka Pilih <span id="textbold">alamat MAC</span> yang tampil, dan lengkapi parameter 
+            <span id="italic">Login</span> dengan isian "<span id="textbold">admin</span>", seperti terlihat pada gambar berikut:
+            </p>
+            <div class="text-center pt-2 pb-4">
+                <img src="img-asset/login-admin1.png" class="img-fluid" width="800px" height="600px"></a>
+            </div>
+            <p class="pengertianht1-1 text-center pt-0">Selanjutnya tekan tombol "<span id="textbold">Connect</span>" untuk menghubungkan ke router Mikrotik.
+            </p>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="aliceblue" fill-opacity="1"
+                d="M0,192L48,208C96,224,192,256,288,234.7C384,213,480,139,576,144C672,149,768,235,864,229.3C960,224,1056,128,1152,117.3C1248,107,1344,181,1392,218.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+    <!-- D -->
+    <section id="Bagian-D">
+        <div class="container">
+            <p class="pengertianht1-1">
+        </p>
+        </div>
+
+    </section>
+    <!-- End D -->
+    
+            <!-- akhir cara mengakses mikrotik melalui winbox -->
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="aliceblue" fill-opacity="1"
+                d="M0,192L48,208C96,224,192,256,288,234.7C384,213,480,139,576,144C672,149,768,235,864,229.3C960,224,1056,128,1152,117.3C1248,107,1344,181,1392,218.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    
+    <!-- bagian awal -->
+    <!-- footer -->
+    <div class="yyyy">
+        <footer class="text-center text-white p-3" style="background-color: aliceblue">
+            <p class="text-dark fw-bold">Created with <i class="bi bi-heart-fill text-danger"></i> By <a
+                    href="https://instagram.com/devanisp27?igshid=YmMyMTA2M2Y="
+                    class="text-dark fw-bold">Yogaariyanto</a></p>
+        </footer>
+    </div>
+    <!-- akhir footer -->
+
+    <!-- js bootstrape and highlight js -->
+    <script src="js/main.js" defer></script>
+    <script src="js/prism.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <!-- akhir js bootstrap and highlight js -->
+</body>
+
+</html>

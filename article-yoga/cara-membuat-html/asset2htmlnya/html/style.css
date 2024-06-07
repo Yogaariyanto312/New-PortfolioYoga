@@ -1,0 +1,20 @@
+body {
+  background-color: aliceblue;
+}
+.judul {
+  margin: 2rem;
+  padding-top: 3rem;
+}
+
+.bagian-E {
+  margin: 2rem;
+  padding-top: 3rem;
+}
+
+.btn-kembali {
+  font-weight: bold;
+}
+
+header {
+  padding-bottom: 1rem;
+}

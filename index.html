@@ -1,13 +1,549 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Yogaariyanto</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio | Yogaariyanto</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="MyNameYogaAriYanto312">
+    <meta name="keywords" content="MyNameYogaAriYanto312">
+    <meta name="author" content="MyNameYogaAriYanto312">
+    
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'>
+<link rel="stylesheet" href="CSS/style.css">
+
+<!--  -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="/CSS/aos.css" rel="stylesheet">
+<!--  -->
+
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+</style>
+<body id="home">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-custom navbar-mainbg pb-0 pt-0 fixed-top">
+  <div class="container-fluid">
+        <a class="navbar-brand navbar-logo" style="font-family: comic neue ;font-weight: bold;font-size: 26px;" href="shutdown.py">Yogaariyanto</a>
+        <button class="navbar-toggler pt" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <!-- <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+        </button> -->
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#home"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <polyline points="5 12 3 12 12 3 21 12 19 12"></polyline>
+                        <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"></path>
+                        <rect x="10" y="12" width="4" height="4"></rect>
+                     </svg></i>Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Materi"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <rect x="3" y="4" width="18" height="4" rx="2"></rect>
+                      <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10"></path>
+                      <line x1="10" y1="12" x2="14" y2="12"></line>
+                   </svg></i>Content</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Game"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-gamepad-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4z"></path>
+                        <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232"></path>
+                        <path d="M8 9v2"></path>
+                        <path d="M7 10h2"></path>
+                        <path d="M14 10h2"></path>
+                     </svg></i>Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#download"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-download" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
+                        <polyline points="7 11 12 16 17 11"></polyline>
+                        <line x1="12" y1="4" x2="12" y2="16"></line>
+                     </svg></i>Download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-address-book" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M20 6v12a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2z"></path>
+                        <path d="M10 16h6"></path>
+                        <circle cx="13" cy="11" r="2"></circle>
+                        <path d="M4 8h3"></path>
+                        <path d="M4 12h3"></path>
+                        <path d="M4 16h3"></path>
+                     </svg></i>Contact Me</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+  </nav>
+  <!-- akhir navbar -->
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center">
+    <div class="container"></div>
+    <img src="img/profile/IMG-20200729-WA0044.jpg" alt="profill" width="200" class="rounded-circle img-thumbnail">
+    <!-- <img src="img/profile.jpg" alt="profill" width="200" class="rounded-circle img-thumbnail" data-bs-toggle="offcanvas"
+      href="#offcanvasExample" role="button"> -->
+    <h1 class="display-4">Yoga Ariyanto</h1>
+    <p class="lead">SMK Yadika 3 | XII-TKJ-1</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="aliceblue" fill-opacity="1"
+        d="M0,192L48,208C96,224,192,256,288,234.7C384,213,480,139,576,144C672,149,768,235,864,229.3C960,224,1056,128,1152,117.3C1248,107,1344,181,1392,218.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- akhir jumbotron -->
+
+  <!-- about -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center mb-3 mt-3">
+        <div class="col">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-center">
+        <div class="col-md-4">
+          <p>Nama saya yoga ariyanto lahir di pemalang jawa tengah and saya sekolah di smk yadika 3 jurusan TKJ 
+            dan saya adalah seorang Introvert.</p>
+        </div>
+        <div class="col-md-4">
+          <p>Status saya adalah seorang single akut and hoby saya adalah bermain game dan mencintai dia walau
+            dia tidak mencintai saya hehe nasib.
+          </p>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffff" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,106.7C384,128,480,192,576,202.7C672,213,768,171,864,165.3C960
+        ,160,1056,192,1152,186.7C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152
+        ,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- akhir about -->
+
+   <!-- Materi -->
+
+   <section id="Materi">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h3 id="scrollspyHeading2">Materi Pemrograman Dasar</h3>
+        </div>
+      </div>
+      <!-- HTML -->
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/html.png" class="img-fluid card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">HTML</h5>
+              <p class="card-txt">Materi dasar tentang HTML</p>
+              <p class="card-text "> </p>
+              <a href="article-yoga/cara-membuat-html/index.html" class="btn btn-secondary">let's learn</a>
+            </div>
+          </div>
+        </div>
+        <!-- akhir HTML -->
+
+        <!-- CSS -->
+        <!-- <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/css-sqr.png" class="img-fluid card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">CSS </h5>
+              <p class="card-txt">Materi dasar tentang CSS </p>
+              <a href="game/dino/index.html" class="btn btn-secondary">let's learn</a>
+            </div>
+          </div>
+        </div> -->
+        <!-- akhir css -->
+
+        <!-- JS -->
+        <!-- <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/js-sqr.png" class="img-fluid card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">JS/javascript </h5>
+              <p class="card-txt">Materi dasar tentang jS </p>
+              <p class="card-text "> </p>
+              <a href="game/dino/index.html" class="btn btn-secondary">let's learn</a>
+            </div>
+          </div>
+        </div> -->
+        <!-- akhir JS -->
+
+        <!-- mikrotik -->
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/32fb_mikrotik.jpg" class="img-fluid card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">mikrotik </h5>
+              <p class="card-txt">Materi dasar tentang mikrotik </p>
+              <p class="card-text "> </p>
+              <a href="article-yoga/cara-konfigurasi-mikrotik/index.html" class="btn btn-secondary">let's learn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- akhir mikrotik -->
+
+    <!-- wavy -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fffbf0" fill-opacity="1"
+        d="M0,32L48,64C96,96,192,160,288,176C384,192,480,160,576,133.3C672,107,768,85,864,96C960,107,1056,149,1152,154.7C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- akhir wavy -->
+
+  <!-- Akhir Materi -->
+
+    <!-- projects-->
+  <section id="Game">
+    
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h3 id="scrollspyHeading3">My Game</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3 float-lg-start">
+          <div class="card">
+            <img src="img/dino.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+              <h5 class="card-title">Dino Game</h5>
+              <p class="card-text">support all device </p>
+              <a href="game/dino/index.html" class="btn btn-primary">play the game</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/catur.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Catur Game</h5>
+              <p class="card-text">support all device </p>
+              <a href="game/catur/index.html" class="btn btn-primary">play the game</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/maze.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Mazee game</h5>
+              <p class="card-text">support all device</p>
+              <a href="game/mazee/index.html" class="btn btn-primary">play the game</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Snake.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Snake game</h5>
+              <p class="card-text">no support handphone device</p>
+              <a href="game/snake/index.html" class="btn btn-primary">play the game</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/Tictactoe.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Tictactoe</h5>
+              <p class="card-text">support all device</p>
+              <a href="game/tictek/index.html" class="btn btn-primary">play the game</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/towergame.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Tower game</h5>
+              <p class="card-text">support all device</p>
+              <a href="game/tower-game/index.html" class="btn btn-primary">play the game</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/zombi.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">zombie myhame </h5>
+              <p class="card-text">support all device</p>
+              <a href="game/Folder Baru (2)/index.html" class="btn btn-primary">play the game</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="img/quis.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Quiz game </h5>
+              <p class="card-text">support all device </p>
+              <a href="game/Quiz/index.html" class="btn btn-primary">play the game</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,32L48,64C96,96,192,160,288,176C384,192,480,160,576,133.3C672,107,768,85,864,96C960,107,1056,149,1152,154.7C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- akhir projects -->
+
+<!-- download -->
+<section id="download">
+  <div class="container">
+    <div class="row text-center mb-3">
+      <div class="col">
+        <h3 id="scrollspyHeading4">Download-projects</h3>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="img/thumnail.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Minecraft Mods</h5>
+            <p class="card-text">mods forge-1.18.2 version 1 </p>
+            <a href="https://drive.google.com/file/d/1XLhKcHjiQ9DhIYs3_kLoLaqe8xaj5jcg/view?usp=sharing"
+              class="btn btn-primary">download-mods</a>
+            <a href="https://drive.google.com/file/d/13R3lqlDHnN5Dafm4GsLiE5WW4tmktkvK/view?usp=sharing"
+              class="btn btn-primary">download-server</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="img/2435119656.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Minecraft Mods</h5>
+            <p class="card-text">mods forge-1.18.2 version performance </p>
+            <div class="col-md-4-mb-3 text-center">
+              <a href="https://drive.google.com/file/d/1yWjpjs2xVReQHuDotwIw2_heeFrgHCsK/view?usp=sharing"
+                class="btn btn-primary">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="aliceblue" fill-opacity="1"
+      d="M0,32L48,64C96,96,192,160,288,176C384,192,480,160,576,133.3C672,107,768,85,864,96C960,107,1056,149,1152,154.7C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+  </svg>
+</section>
+<!-- akhir download -->
+
+ <!-- social -->
+ <section id="social">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col">
+        <h4>Social Media</h4>
+      </div>
+    </div>
+    <div class="row mb-5 justify-content-center">
+      <div class="col">
+        <div class="social-btns justify-content-center">
+          <a class="btn facebook" href="https://www.facebook.com/profile.php?id=100078284554069"><i
+              class="fa fa-facebook"></i></a>
+          <a class="btn twitter" href="https://www.youtube.com/channel/UC3WF4r_KUNnKcrKAp2QLtrQ"><i
+              class="fa fa-youtube"></i></a>
+          <a class="btn google" href="https://github.com/Yogaariyanto312"><i class="fa fa-github"></i></a>
+          <a class="btn dribbble" href="https://yogaariyanto312.github.io/yogaariyanto/"><i
+              class="fa fa-globe"></i></a>
+          <a class="btn skype" href="https://instagram.com/yogaariyanto312?igshid=YmMyMTA2M2Y="><i
+              class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#fff" fill-opacity="1"
+      d="M0,32L48,64C96,96,192,160,288,176C384,192,480,160,576,133.3C672,107,768,85,864,96C960,107,1056,149,1152,154.7C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+  </svg>
+</section>
+<!-- akhir social -->
+
+<!-- contact -->
+<section id="contact">
+  <div class="container">
+    <div class="row text-center mb-3">
+      <div class="col">
+        <h4 id="scrollspyHeading5">Contact Me</h4>
+      </div>
+    </div>
+    <div class="row justify-content-center ">
+      <div class="col-md-6">
+        <!-- alert -->
+        <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+          <strong>Yeee berhasil!!!</strong> Pesan anda sudah dikirim ke yoga yeeee
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <!-- tutup alert -->
+
+        <form name="contact">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nama lengkap</label>
+            <input type="text" class="form-control" id="name" aria-describedby="name" name="name">
+          </div>
+          <div class="mb-3">
+            <label for="emai1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan atau kritik buat saya</label>
+            <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+          
+          
+          <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Bentar...
+          </button>
+        </form>
+          <!-- trakteer -->
+          <div class="container">
+            <div class="trakteer text-center align-content-center">
+              <div class="row text-center">
+                <div class="col">
+                  <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="img/trakteer-qrcode.jpeg" class="img-fluid" alt="...">
+                      </div>
+                      <div class="col-md-8 text-center" style="padding-top: 35px;">
+                        <div class="card-body">
+                          <h5 class="card-title pb-2">Dukung saya di</h5>
+                          <div class="tbl-trakteer">
+                            <script type='text/javascript' src='https://cdn.trakteer.id/js/embed/trbtn.min.js'>
+                            </script>
+                            <script type='text/javascript'>
+                              (function () {
+                                var trbtnId = trbtn.init('Dukung Saya di Trakteer', '#be1e2d',
+                                  'https://trakteer.id/yoga-ariyanto-ad4xl',
+                                  'https://cdn.trakteer.id/images/embed/trbtn-icon.png', '33');
+                                trbtn.draw(trbtnId);
+                              })();
+                            </script>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- akhir trakteer -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#e4ddf4" fill-opacity="1"
+      d="M0,160L48,170.7C96,181,192,203,288,208C384,213,480,203,576,181.3C672,160,768,128,864,144C960,
+    160,1056,224,1152,229.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,
+    320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+  </svg>
+  <!-- akhir contact -->
+
+  <!-- footer -->
+  <footer class="text-center text-white p-3" style="background-color: #e4ddf4">
+    <p class="text-dark fw-bold">Created with <i class="bi bi-heart-fill text-danger">
+    </i> By<a href="https://instagram.com/devanisp27?igshid=YmMyMTA2M2Y=" class="text-dark fw-bold">Yogaariyanto</a></p>
+       
+  </footer>
+  <!-- akhir footer -->
+
+  <!-- js bootstrape and highlight js -->
+ 
+  <!-- akhir js bootstrape and highlight js -->
+
+  <!-- contact js -->
+  <script>
+    const scriptURL =
+      'https://script.google.com/macros/s/AKfycbykfIKSsNDmImCVdB0aDEKVNkxFuo6543McKhA3QekPSBkf-IAXbmYCKpvXjILYRObs/exec'
+    const form = document.forms['contact']
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const alert = document.querySelector('.alert');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      // ketika tombol kirim diklik
+      // tampilkan tombol loading dan hilangkan tbl kirim
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
+      fetch(scriptURL, {
+          method: 'POST',
+          body: new FormData(form)
+        })
+        .then((response) => {
+          // ketika tombol kirim diklik
+          // tampilkan tombol loading dan hilangkan tbl kirim
+          btnLoading.classList.toggle('d-none');
+          btnKirim.classList.toggle('d-none');
+          // tampilkan alert
+          alert.classList.toggle('d-none');
+          // reset formnya
+          form.reset();
+          console.log('Success!', response);
+
+        })
+
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!-- akhir contact js -->
+
+
+
+  <!--  -->
+  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<!-- <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script> -->
+<!-- <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script> -->
+<script src="js/main.js" defer></script>
+<script src="js/prism.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script src="js/aos.js"></script>
+<script  src="js/script.js"></script>
+
+</body>
 </html>
